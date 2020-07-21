@@ -1,0 +1,20 @@
+1594896692712	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lg/wbkwm9ld72n029_ywkt89bc00000gn/T/rust_mozprofilePpL3T1"
+1594896701515	Marionette	INFO	Listening on port 49324
+1594896701559	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594896778517	Marionette	INFO	Stopped listening on port 49324
+1594897539600	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lg/wbkwm9ld72n029_ywkt89bc00000gn/T/rust_mozprofiles6Wcqv"
+1594897547032	Marionette	INFO	Listening on port 54656
+1594897547081	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594897676992	Marionette	INFO	Stopped listening on port 54656
+1594897821915	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lg/wbkwm9ld72n029_ywkt89bc00000gn/T/rust_mozprofilerkemAh"
+1594897829849	Marionette	INFO	Listening on port 57026
+1594897829912	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594897842148	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xB000E,name=PBackgroundIDBDatabase::Msg_CloseAfterInvalidationComplete) Channel error: cannot send/recv
+
+1594897887511	Marionette	INFO	Stopped listening on port 57026
